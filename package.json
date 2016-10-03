@@ -1,0 +1,16 @@
+{
+  "name": "rest-client",
+  "version": "1.0.0",
+  "description": "a little demo with WP posts using the REST API",
+  "main": "post_app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sven Hinse",
+  "dependencies": {
+    "jquery":">=3.1.0",
+    "underscore": ">= 1.8.3",
+    "backbone":">=1.3.3"
+  },
+  "license": "ISC"
+}

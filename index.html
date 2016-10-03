@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- load 3rd-party dependencies -->
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="node_modules/underscore/underscore.js"></script>
+	<script type="text/javascript" src="node_modules/backbone/backbone.js"></script>
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<title>REST API Posts with backbone.js</title>
+</head>
+<body>
+<div id="container">
+	<span id="startup-message">Loading posts...</span>
+
+	<script type="text/template" id="post-template">
+		<h1><%= title.rendered %></h1>
+		<button class="toggle-visibility">Show / Hide excerpt</button>
+		<br>
+		<div class="excerpt-container"><%= excerpt.rendered %></div>
+		<br><br>
+		<hr>
+
+	</script>
+
+</div>
+<!-- load app js -->
+<script type="text/javascript" src="js/post_app.js"></script>
+</body>
+</html>
